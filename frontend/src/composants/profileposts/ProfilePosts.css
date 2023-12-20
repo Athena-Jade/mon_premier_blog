@@ -1,0 +1,18 @@
+/*.profile-posts{
+  display: inline-block;
+  
+}*/
+.contenu-profile{
+  display: flex;
+  justify-content: center;
+}
+.img-profile{
+  width: 100%;
+}
+.config{
+  display: flex;
+  justify-content: space-between;
+}
+.author, .date{
+  flex: 1 1 15rem;
+}

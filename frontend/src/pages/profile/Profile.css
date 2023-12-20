@@ -1,0 +1,42 @@
+.profile-user{
+   display: flex;  
+
+    justify-content: space-around;
+    
+    gap: 1rem;
+   
+   
+}
+
+/*
+
+
+.form-profile{
+    flex:0 1 15rem;
+    width: 20%;
+    position: absolute;
+    top: 3%;
+    left: 75%;
+}
+*/
+
+.user-comments{
+    align-self: center; 
+    
+}
+.box-update-delete{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn-profile{
+    align-self: center;
+}
+/***********************************************/
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+import './ProfilePosts.css'
+
+import { IF } from "../../url";
+function ProfilePosts({ p }) {
+  return (
+    <>
+      <div className="profile-posts">
+        {/* left */}
+        <div className="box-img-profile">
+          <img
+            src={IF + p.photo}
+            alt=""
+            className="h-full w-full object-cover"
+          />
+        </div>
+        {/* right */}
+        <div className="right">
+          <h1 >
+            {p.title}
+          </h1>
+          <div className="config">
+            <p>@{p.username}</p>
+            <div className="flex space-x-2">
+              <p>{new Date(p.updatedAt).toString().slice(0, 15)}</p>
+              <p>{new Date(p.updatedAt).toString().slice(16, 24)}</p>
+            </div>
+          </div>
+          <p className="description">
+            {p.desc.slice(0, 200) + " ...Read more"}
+          </p>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default ProfilePosts;

@@ -1,0 +1,23 @@
+.createposts{
+    margin: 5rem auto;
+    width: 55rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 2%;
+}
+.form-createpost{
+    display: block;
+
+}
+
+.creer-categorie{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+textarea{
+    width: 100%;
+    margin-bottom: 1rem;
+}
